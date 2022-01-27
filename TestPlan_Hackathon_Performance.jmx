@@ -274,7 +274,7 @@
                     <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   </elementProp>
                   <elementProp name="email_create" elementType="HTTPArgument">
-                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.name">email_create</stringProp>
                     <stringProp name="Argument.value">hackaton_03333@teste.com</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
@@ -596,6 +596,7 @@
                     <stringProp name="Argument.name">controller</stringProp>
                     <stringProp name="Argument.value">my-account</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   </elementProp>
                 </collectionProp>
               </elementProp>
